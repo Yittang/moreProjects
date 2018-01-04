@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>section的使用</title>
+	<link rel="stylesheet" type="text/css" href="css/component.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div id="wrap">
+		<form>
+			<section>
+				<span class="input input--haruki margin-top40">
+					<input class="input__field input__field--haruki" type="text" id="name" />
+					<label class="input__label input__label--haruki" for="name">
+						<span class="input__label-content input__label-content--haruki">Name</span>
+					</label>
+				</span>
+			</section>
+			<section>
+				<span class="input input--haruki margin-top40">
+					<input class="input__field input__field--haruki" type="text" id="pass" />
+					<label class="input__label input__label--haruki" for="pass">
+						<span class="input__label-content input__label-content--haruki">password</span>
+					</label>
+				</span>
+			</section>
+			<section class="radio padding-left25">
+			    <input id="man" class="display-none" name="sex" type="radio" checked>
+			    <label class="padding-left15 padding-right15" for="man">
+			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
+			        Man
+			    </label>
+			    <input id="female" class="display-none" name="sex" type="radio">
+			    <label class="padding-left15" for="female">
+			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
+			        Woman
+			    </label>
+			</section>
+			<section class="radio padding-left25 margin-top10">
+			    <input id="loveman" class="display-none" name="love" type="radio" checked>
+			    <label class="padding-left15 padding-right15" for="loveman">
+			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
+			        love Man
+			    </label>
+			    <input id="lovefemale" class="display-none" name="love" type="radio">
+			    <label class="padding-left15" for="lovefemale">
+			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
+			        love Woman
+			    </label>
+			</section>
+			<section class="checkbox padding-left25 margin-top10">
+			    <input id="pubg" class="display-none" name="hobby" type="checkbox" checked>
+			    <label class="padding-left15 padding-right15" for="pubg">
+			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
+			        吃鸡
+			    </label>
+			    <input id="nishuihan" class="display-none" name="hobby" type="checkbox">
+			    <label class="padding-left15 padding-right15" for="nishuihan">
+			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
+			        逆水寒
+			    </label>
+			    <input id="jiuyin" class="display-none" name="hobby" type="checkbox">
+			    <label class="padding-left15" for="jiuyin">
+			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
+			        九阴真经2
+			    </label>
+			</section>
+			<section class="padding-left16 margin-top10">
+				<label>
+					<span>Remark:</span>
+					<textarea cols="20" rows="5"></textarea>
+				</label>
+			</section>
+			<section class="padding-left16 margin-top10">
+				<span>My Car：</span>
+				<select>
+					<option>帕加尼</option>
+					<option>兰博基尼</option>
+					<option>迈凯伦</option>
+					<option>法拉利</option>
+					<option>汽车</option>
+					<option>梦</option>
+				</select>
+			</section>
+			<button type="submit" class="btn btn-shadow">Submit</button>
+		</form>
+	</div>
+
+
+
+</body>
+</html>
