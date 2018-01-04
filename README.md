@@ -7,5 +7,6 @@
 ## 工作经历
 无
 
-**在线预览地址：[戳我](http://yittang.cn/moreProjects/)**
-**form预览：[戳我](http://yittang.cn/moreProjects/label5/index.html)**
+在线预览地址：[戳我](http://yittang.cn/moreProjects/)
+
+form预览：[戳我](http://yittang.cn/moreProjects/label5/index.html)
