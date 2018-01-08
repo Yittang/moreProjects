@@ -65,7 +65,7 @@ form {
 .checkbox label i {
   position: absolute;
   top: 2px;
-  left: 11px;
+  left: 12px;
   margin-left: -20px;
 }
 .checkbox label::before {

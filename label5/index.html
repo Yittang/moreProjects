@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +13,10 @@
 </head>
 <body>
 	<div id="wrap">
-		<form>
+		<form action="/test" method="get">
 			<section>
 				<span class="input input--haruki margin-top40">
-					<input class="input__field input__field--haruki" type="text" id="name" />
+					<input class="input__field input__field--haruki" type="text" id="name" name="username" />
 					<label class="input__label input__label--haruki" for="name">
 						<span class="input__label-content input__label-content--haruki">Name</span>
 					</label>
@@ -23,48 +24,48 @@
 			</section>
 			<section>
 				<span class="input input--haruki margin-top40">
-					<input class="input__field input__field--haruki" type="text" id="pass" />
+					<input class="input__field input__field--haruki" type="password" id="pass" name="password" />
 					<label class="input__label input__label--haruki" for="pass">
 						<span class="input__label-content input__label-content--haruki">password</span>
 					</label>
 				</span>
 			</section>
 			<section class="radio padding-left25">
-			    <input id="man" class="display-none" name="sex" type="radio" checked>
+			    <input id="man" class="display-none" name="sex" type="radio" value="man" checked>
 			    <label class="padding-left15 padding-right15" for="man">
 			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
 			        Man
 			    </label>
-			    <input id="female" class="display-none" name="sex" type="radio">
+			    <input id="female" class="display-none" name="sex" type="radio" value="woman">
 			    <label class="padding-left15" for="female">
 			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
 			        Woman
 			    </label>
 			</section>
 			<section class="radio padding-left25 margin-top10">
-			    <input id="loveman" class="display-none" name="love" type="radio" checked>
+			    <input id="loveman" class="display-none" name="love" type="radio" value="loveMan" checked>
 			    <label class="padding-left15 padding-right15" for="loveman">
 			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
 			        love Man
 			    </label>
-			    <input id="lovefemale" class="display-none" name="love" type="radio">
+			    <input id="lovefemale" class="display-none" name="love" type="radio" value="lovefemale">
 			    <label class="padding-left15" for="lovefemale">
 			    	<i class="fa fa-dot-circle-o display-none" aria-hidden="true"></i>
 			        love Woman
 			    </label>
 			</section>
 			<section class="checkbox padding-left25 margin-top10">
-			    <input id="pubg" class="display-none" name="hobby" type="checkbox" checked>
+			    <input id="pubg" class="display-none" name="hobby" type="checkbox" value="pubg" checked>
 			    <label class="padding-left15 padding-right15" for="pubg">
 			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
 			        吃鸡
 			    </label>
-			    <input id="nishuihan" class="display-none" name="hobby" type="checkbox">
+			    <input id="nishuihan" class="display-none" name="hobby" type="checkbox" value="nishuihan">
 			    <label class="padding-left15 padding-right15" for="nishuihan">
 			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
 			        逆水寒
 			    </label>
-			    <input id="jiuyin" class="display-none" name="hobby" type="checkbox">
+			    <input id="jiuyin" class="display-none" name="hobby" type="checkbox" value="jiuyin">
 			    <label class="padding-left15" for="jiuyin">
 			    	<i class="fa fa-check-square-o display-none" aria-hidden="true"></i>
 			        九阴真经2
