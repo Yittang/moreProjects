@@ -1,0 +1,43 @@
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin: 0 auto;
+}
+
+li {
+	color: #fff;
+    padding: 1px 16px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+i {
+	float: right;
+	cursor: pointer;
+	font-size: 24px !important;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+.success {
+	background: #4CAF50;
+}
+
+.info {
+	background: #2196F3;
+}
+
+.danger {
+	background: #f44336;
+}
+
+.warning {
+	background: #ff9800;
+}
