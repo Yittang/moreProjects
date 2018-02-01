@@ -9,9 +9,9 @@
 			styleTag.innerHTML =  code.substring(0, count)
 			container.scrollTop = container.scrollHeight
 			if(count < code.length) {
-				time = setTimeout(run, 10)
+				time = setTimeout(run, 50)
 			}
-		}, 10)
+		}, 50)
 	}
 
 	let code = `
